@@ -1,0 +1,6 @@
+Criar um objeto aluno, que receba:
+Nome
+Sobrenome
+5 Notas
+
+E no final um método que retorne a média dessas notas.

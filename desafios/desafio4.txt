@@ -1,0 +1,22 @@
+Permita que duas contas transfiram dinheiro entre si
+
+Todas as contas possuem
+    Agencia
+    Numero
+
+Existem 3 tipos de conta
+Conta Simples
+Conta Premium
+Conta Mix (Corrente + Poupanca)
+
+
+Os saldos das contas são os seguintes:
+Conta Simples: possui apenas saldo, sem limite
+Conta Premium: possui saldo + limite
+Conta Mix (Corrente + Poupanca): saldo da conta corrente + saldo da conta poupança + limite
+
+Só deve ser permitido transferir dinheiro caso a conta possua saldo do contrário não permitir
+
+
+Antes da transferencia exiba o saldo atual das duas contas
+Ao final da transferencia de sucesso exiba o saldo atual das duas contas

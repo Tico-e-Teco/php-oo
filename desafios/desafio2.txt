@@ -1,0 +1,7 @@
+Pré-requisito desafio1
+
+A partir da média, identificar se:
+A média for de 1 a 4, o aluno estará reprovado
+A média for de 5 a 7, o aluno passou na média
+A média for de 8 e 9, o aluno passou bem
+A média for 10, o aluno passou com excelecia
