@@ -1,19 +1,31 @@
 <?php
 
-class Aluno{
-    private $nome; // Nome
-    private $sobrenome;// Sobrenome
-    private $notas; // 5 Notas
-   
-    public function __construct()
+class Aluno
+{
+    private $nome;
+    private $sobrenome;
+    private $notas;
+
+    // XGH: Force array float
+    public function __construct(string $nomeParam, string $sobrenomeParam, $notasParam)
     {
-        
+        $this->nome = $nomeParam;
+        $this->sobrenome = $sobrenomeParam;
+        $this->notas = $notasParam;
     }
 
     /**
      * Objetivo desse método é de calcular a média de notas
      */
-    public function calcularMedia(){
+    public function obterMedia()
+    {
+        // soma / pela quantidade
+        $notasSomadas = array_sum($this->notas);
+        return $notasSomadas / 5 . PHP_EOL;
 
+    }
+
+    public function obterNomeCompleto(){
+        return $this->nome . " " . $this->sobrenome;
     }
 }
